@@ -76,7 +76,7 @@ body{
     justify-content: center;
     background: #cccbc9;
 }
-.home > div{
+.home > div , .gameOver>div{
     margin: 10px;
     background-color: #fff;
     border-radius: 10px;
