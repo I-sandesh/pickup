@@ -6,13 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pick_UP</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 </head>
 <body>
-    <div class="store">
+    <div class="store hide">
         <div class="point">
-            <div class="rank">Points: 0</div>
-            <div class="time">Seconds: 0</div>
+            <div class="rank">Points: <span class="score"></span></div>
+            <div class="time">Seconds: <span class="timeLeft"></span>s</div>
         </div>
         <div class="plates">
             <div class="plate"></div>
@@ -27,8 +26,29 @@
         </div>
     </div>
 
-    <script>
+    <div class="home hide">
         
-    </script>
+        <div>
+            <div class="title">
+                <h1>PickUP</h1>
+            </div>
+            <h3>Choose Level</h3>
+            <div class="level" id="level">
+                <input type="radio" name="level" value="0"> Easy
+                <input type="radio" name="level" value="1"> Medium
+                <input type="radio" name="level" value="2"> Hard
+            </div>
+            <button onclick='startGame()' class="startGame">START</button>
+        </div>
+    </div>
+
+    <div class="gameOver">
+        <div class="gameOverText">
+            <h1>Game Over</h1>
+            <h3>Score: <span class="finalscore"></span></h3>
+            <button onclick='startGame()' class="startGame">RESTART</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
