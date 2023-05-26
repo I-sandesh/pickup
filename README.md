@@ -16,6 +16,7 @@ Its a normal game for entertaining purpose, you have 9 boxes having different co
 |Blue  |  10  |
 |Green |  20  |
 |Blank |  -5  |
+|Yellow|  5   |
 
 
 ## Screenshots
