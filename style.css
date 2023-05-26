@@ -13,6 +13,8 @@ body{
 }
 
 .point{
+    position: relative;
+    top: 15px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -22,11 +24,13 @@ body{
 
 .plates{
     /* background: red; */
+    position: relative;
+    top: 25px;
     font-size: 25px;
     display: grid;
     padding: 18px;
-    grid-template-columns: repeat(3,31vw);
-    grid-template-rows: repeat(3,28vh);
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,27vh);
     grid-auto-rows: 60px;
     grid-gap: 20px;
 }
