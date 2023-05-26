@@ -1,0 +1,39 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+
+.store{
+    width: 100%;
+    height: 100%;
+}
+
+.point{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 28px;
+}
+
+.plates{
+    /* background: red; */
+    font-size: 25px;
+    display: grid;
+    padding: 18px;
+    grid-template-columns: repeat(3,31vw);
+    grid-template-rows: repeat(3,28vh);
+    grid-auto-rows: 60px;
+    grid-gap: 20px;
+}
+
+.plate{
+    height: 100%;
+    width: 100%;
+    border: 2px solid rgb(191, 154, 226);
+    background-color: rgb(204, 203, 201);
+}
